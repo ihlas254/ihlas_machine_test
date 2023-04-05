@@ -85,7 +85,7 @@ WSGI_APPLICATION = 'machine_test_project.wsgi.application'
 DATABASES = {
     'default': {
         'ENGINE': 'django.db.backends.mysql',
-        'NAME': 'post_db',
+        'NAME': 'blog',
         'USER': 'root',
         'PASSWORD': '',
         'HOST': 'localhost',
